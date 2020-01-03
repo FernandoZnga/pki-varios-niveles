@@ -1,0 +1,95 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=Hn, O=Unitec Root, OU=Ceutec, CN=Ceutec CA
+        Validity
+            Not Before: Jan  3 06:06:18 2020 GMT
+            Not After : Jan  2 06:06:18 2022 GMT
+        Subject: C=Hn, O=Unitec Root, CN=Fred Flinstone
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ca:8d:06:82:af:c6:93:f1:32:c4:52:36:82:8a:
+                    2a:13:5e:5e:32:ed:48:be:e9:a6:6b:75:f3:b5:b1:
+                    fc:b1:b9:3d:8f:8b:c9:3e:a3:ef:6e:3e:d4:42:01:
+                    60:45:f3:3c:a8:ed:81:f1:da:de:ba:3a:e5:d6:1f:
+                    c5:c1:b3:83:61:26:05:7b:a9:6e:cf:84:6f:32:ef:
+                    d7:6e:d1:5c:2b:94:f3:3c:f3:0f:8e:d9:27:31:5b:
+                    3d:a5:b8:49:89:3e:ab:f0:64:55:33:10:1f:65:59:
+                    24:15:f4:c8:3d:ec:47:5b:a6:3e:6e:92:dc:59:8f:
+                    69:21:43:f7:80:fc:e2:7e:ca:92:c9:3d:30:06:23:
+                    c6:a3:05:d1:62:e7:34:5d:8f:19:68:9f:39:f2:64:
+                    0c:ff:b3:bb:be:9f:39:77:93:e8:b3:0f:ed:26:4b:
+                    04:66:e7:03:fd:a4:5c:8a:1d:1f:5c:b3:58:21:09:
+                    71:9f:8b:4d:05:0a:ca:78:8e:db:a1:6b:15:69:03:
+                    9c:06:1d:93:17:ed:73:ff:ed:28:64:02:4d:ac:3e:
+                    5e:23:c2:d1:9c:55:60:a7:c4:0b:27:b5:aa:6b:0f:
+                    d0:04:f2:50:a4:f9:d3:55:6c:99:8d:77:cb:4e:f4:
+                    1b:0d:23:53:bb:80:44:a0:9e:52:42:de:0f:81:ad:
+                    08:c1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                E-mail Protection, TLS Web Client Authentication, Any Extended Key Usage
+            X509v3 Subject Key Identifier: 
+                6F:87:E6:30:0A:E2:50:49:D4:A2:B4:84:D1:F7:98:3A:EA:00:4F:33
+            X509v3 Authority Key Identifier: 
+                keyid:2D:3D:48:32:1B:DF:99:49:B7:2A:C1:F4:CA:4D:F4:3D:4F:22:B8:44
+
+            Authority Information Access: 
+                CA Issuers - URI:http://ceutec.com/ceutec-ca.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://ceutec.com/ceutec-ca.crl
+
+            X509v3 Subject Alternative Name: 
+                email:fred@ceutec.com
+    Signature Algorithm: sha1WithRSAEncryption
+         97:7d:ab:ba:ca:97:af:c3:3d:d4:00:ef:5f:fd:6c:33:15:b1:
+         ec:44:35:8d:be:c7:73:eb:9b:e1:5f:d7:85:16:f1:3c:e0:6e:
+         0d:a9:cb:06:9c:e2:71:83:cb:f9:75:2e:6c:5f:21:76:79:4c:
+         a1:e3:1b:fe:b7:c0:63:dc:06:43:31:c9:07:3e:bb:94:ae:da:
+         22:4c:e2:40:50:56:e1:53:ef:ec:54:05:94:1a:6c:81:50:46:
+         9b:9c:44:17:31:2f:ac:5b:74:70:20:0a:d7:0c:d4:be:02:79:
+         0f:5d:e6:1c:77:4f:16:e2:70:75:a1:cb:1a:bc:90:37:2c:a0:
+         ee:ca:ff:6c:50:59:1e:b3:de:d1:67:93:76:ac:f8:ed:4b:a4:
+         c7:51:c5:db:2c:66:01:1b:85:f9:2d:f4:2f:a2:70:34:b1:11:
+         38:d2:d7:d1:20:48:f9:f4:78:8c:c8:20:89:82:32:b4:b7:0f:
+         d2:9c:80:3a:2d:fd:c7:41:82:e5:db:ad:55:f3:3b:5c:de:13:
+         91:eb:fb:17:9a:60:ff:29:70:f3:aa:e4:c8:14:02:8d:6e:52:
+         05:56:15:c0:e2:38:a8:01:4e:95:ab:06:24:a2:51:03:8b:39:
+         91:89:b3:49:a5:b4:b2:7c:b7:b2:f9:84:0f:76:e5:e5:65:5f:
+         d3:ba:4d:80
+-----BEGIN CERTIFICATE-----
+MIIEEDCCAvigAwIBAgIBATANBgkqhkiG9w0BAQUFADBIMQswCQYDVQQGEwJIbjEU
+MBIGA1UECgwLVW5pdGVjIFJvb3QxDzANBgNVBAsMBkNldXRlYzESMBAGA1UEAwwJ
+Q2V1dGVjIENBMB4XDTIwMDEwMzA2MDYxOFoXDTIyMDEwMjA2MDYxOFowPDELMAkG
+A1UEBhMCSG4xFDASBgNVBAoMC1VuaXRlYyBSb290MRcwFQYDVQQDDA5GcmVkIEZs
+aW5zdG9uZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqNBoKvxpPx
+MsRSNoKKKhNeXjLtSL7ppmt187Wx/LG5PY+LyT6j724+1EIBYEXzPKjtgfHa3ro6
+5dYfxcGzg2EmBXupbs+EbzLv127RXCuU8zzzD47ZJzFbPaW4SYk+q/BkVTMQH2VZ
+JBX0yD3sR1umPm6S3FmPaSFD94D84n7Kksk9MAYjxqMF0WLnNF2PGWifOfJkDP+z
+u76fOXeT6LMP7SZLBGbnA/2kXIodH1yzWCEJcZ+LTQUKyniO26FrFWkDnAYdkxft
+c//tKGQCTaw+XiPC0ZxVYKfECye1qmsP0ATyUKT501VsmY13y070Gw0jU7uARKCe
+UkLeD4GtCMECAwEAAaOCAQ8wggELMA4GA1UdDwEB/wQEAwIFoDAJBgNVHRMEAjAA
+MCMGA1UdJQQcMBoGCCsGAQUFBwMEBggrBgEFBQcDAgYEVR0lADAdBgNVHQ4EFgQU
+b4fmMAriUEnUorSE0feYOuoATzMwHwYDVR0jBBgwFoAULT1IMhvfmUm3KsH0yk30
+PU8iuEQwOwYIKwYBBQUHAQEELzAtMCsGCCsGAQUFBzAChh9odHRwOi8vY2V1dGVj
+LmNvbS9jZXV0ZWMtY2EuY2VyMDAGA1UdHwQpMCcwJaAjoCGGH2h0dHA6Ly9jZXV0
+ZWMuY29tL2NldXRlYy1jYS5jcmwwGgYDVR0RBBMwEYEPZnJlZEBjZXV0ZWMuY29t
+MA0GCSqGSIb3DQEBBQUAA4IBAQCXfau6ypevwz3UAO9f/WwzFbHsRDWNvsdz65vh
+X9eFFvE84G4NqcsGnOJxg8v5dS5sXyF2eUyh4xv+t8Bj3AZDMckHPruUrtoiTOJA
+UFbhU+/sVAWUGmyBUEabnEQXMS+sW3RwIArXDNS+AnkPXeYcd08W4nB1ocsavJA3
+LKDuyv9sUFkes97RZ5N2rPjtS6THUcXbLGYBG4X5LfQvonA0sRE40tfRIEj59HiM
+yCCJgjK0tw/SnIA6Lf3HQYLl261V8ztc3hOR6/sXmmD/KXDzquTIFAKNblIFVhXA
+4jioAU6VqwYkolEDizmRibNJpbSyfLey+YQPduXlZV/Tuk2A
+-----END CERTIFICATE-----
